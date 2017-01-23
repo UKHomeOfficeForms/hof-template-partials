@@ -1,7 +1,12 @@
 {{<partials-page}}
   {{$page-content}}
     {{#fields}}
-      {{#renderField}}{{/renderField}}
+      {{#html}}
+        {{{html}}}
+      {{/html}}
+      {{^html}}
+        {{#renderField}}{{/renderField}}
+      {{/html}}
     {{/fields}}
     {{#input-submit}}continue{{/input-submit}}
   {{/page-content}}
