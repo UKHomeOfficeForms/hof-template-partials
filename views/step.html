@@ -4,7 +4,12 @@
       {{beforeFields}}
     {{/beforeFields}}
     {{#fields}}
-      {{#renderField}}{{/renderField}}
+      {{#html}}
+        {{{html}}}
+      {{/html}}
+      {{^html}}
+        {{#renderField}}{{/renderField}}
+      {{/html}}
     {{/fields}}
     {{#afterFields}}
       {{afterFields}}
