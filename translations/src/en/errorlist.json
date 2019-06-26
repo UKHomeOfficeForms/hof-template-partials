@@ -1,4 +1,5 @@
 {
+  "prefix": "Error: ",
   "title": {
     "single": "Please fix the following error",
     "multiple": "Please fix the following errors"
