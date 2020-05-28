@@ -33,8 +33,13 @@
   {{/cookieMessage}}
   {{$footerSupportLinks}}
     <ul>
-      <li><a href="/cookies">{{#t}}base.cookies{{/t}}</a></li>
-      <li><a href="/terms-and-conditions">{{#t}}base.terms{{/t}}</a></li>
+      {{#footerSupportLinks}}
+        <li><a href="{{path}}">{{#t}}{{property}}{{/t}}</a></li>
+      {{/footerSupportLinks}}
+      {{^footerSupportLinks}}
+        <li><a href="/cookies">{{#t}}base.cookies{{/t}}</a></li>
+        <li><a href="/terms-and-conditions">{{#t}}base.terms{{/t}}</a></li>
+      {{/footerSupportLinks}}
     </ul>
   {{/footerSupportLinks}}
 {{/govuk-template}}
