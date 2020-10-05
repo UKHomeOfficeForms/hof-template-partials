@@ -8,6 +8,12 @@
   "intro-list": {
     "items": [
       "cofio pa negeseuon rydych wedi’u gweld fel nad ydynt yn cael eu dangos i chi eto",
+      "storio gwybodaeth rydych yn ei roi dros dro i gefnogi eich cais"
+    ]
+  },
+  "intro-list-ga-tag": {
+    "items": [
+      "cofio pa negeseuon rydych wedi’u gweld fel nad ydynt yn cael eu dangos i chi eto",
       "deall sut rydych yn defnyddio’r gwasanaeth er mwyn i ni allu ei ddiweddaru a’i wella",
       "storio gwybodaeth rydych yn ei roi dros dro i gefnogi eich cais"
     ]
@@ -70,11 +76,6 @@
   },
   "indent-ga": {
     "content": "Ni chaniateir i Google ddefnyddio neu rannu ein data dadansoddol."
-  },
-  "opt-out-link": {
-    "before": "Gallwch ",
-    "href": "https://tools.google.com/dlpage/gaoptout",
-    "link": "eithrio allan o Google Analytics "
   },
   "session-cookies": "Cwcis sesiwn",
   "session-cookies-content": "Mae cwcis sesiwn yn cael eu lawrlwytho bob tro y byddwch yn ymweld â\nr gwasanaeth ac yn cael eu dileu pan fyddwch yn cau eich porwr. Maent yn helpu’r gwasanaeth i weithio’n iawn.",

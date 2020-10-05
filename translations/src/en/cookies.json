@@ -8,6 +8,12 @@
   "intro-list": {
     "items": [
       "remember what messages you’ve seen so you’re not shown them again",
+      "temporarily store information you enter to support your application"
+    ]
+  },
+  "intro-list-ga-tag": {
+    "items": [
+      "remember what messages you’ve seen so you’re not shown them again",
       "understand how you use the service so we can update and improve it",
       "temporarily store information you enter to support your application"
     ]
@@ -70,11 +76,6 @@
   },
   "indent-ga": {
     "content": "Google isn’t allowed to use or share our analytics data."
-  },
-  "opt-out-link": {
-    "before": "You can ",
-    "href": "https://tools.google.com/dlpage/gaoptout",
-    "link": "opt out of Google Analytics cookies"
   },
   "session-cookies": "Session cookies",
   "session-cookies-content": "Session cookies are downloaded each time you visit the service and deleted when you close your browser. They help the service to work properly.",
