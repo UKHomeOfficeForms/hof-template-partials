@@ -21,7 +21,6 @@
       <div class="grid-row" id="content">
         {{> partials-maincontent-left}}
       </div>
-      {{> partials-gatag}}
       <script type="text/javascript" src="{{assetPath}}/js/bundle.js"></script>
     </main>
   {{/main}}
@@ -47,4 +46,7 @@
       {{/footerSupportLinks}}
     </ul>
   {{/footerSupportLinks}}
+  {{$bodyEnd}}
+    {{> partials-gatag}}
+  {{/bodyEnd}}
 {{/govuk-template}}
