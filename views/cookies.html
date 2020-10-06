@@ -27,16 +27,16 @@
     {{#gaTagId}}
       <div id="cookie-settings">
         {{#intro-list-ga-tag}}
-        {{> partials-bullet-list}}
+          {{> partials-bullet-list}}
         {{/intro-list-ga-tag}}
         {{#indent-intro}}
-        {{> partials-panel-indent}}
+          {{> partials-panel-indent}}
         {{/indent-intro}}
         <div class="js-enabled">
           <h2>{{session-cookies}}</h2>
           <p>{{session-cookies-content}}</p>
           {{#session-cookies-table}}
-          {{> partials-table}}
+            {{> partials-table}}
           {{/session-cookies-table}}
           <form>
             <div class="form-group">
@@ -45,17 +45,17 @@
                   <h2>{{measuring-use}}</h2>
                 </legend>
                 {{#google-analytics}}
-                <p>{{.}}</p>
+                  <p>{{.}}</p>
                 {{/google-analytics}}
                 {{#google-analytics-list}}
-                {{> partials-bullet-list}}
+                  {{> partials-bullet-list}}
                 {{/google-analytics-list}}
                 <p>{{no-identify}}</p>
                 {{#analytics-table}}
-                {{> partials-table}}
+                  {{> partials-table}}
                 {{/analytics-table}}
                 {{#indent-ga}}
-                {{> partials-panel-indent}}
+                  {{> partials-panel-indent}}
                 {{/indent-ga}}
                 {{> partials-cookie-settings-radio}}
               </fieldset>
