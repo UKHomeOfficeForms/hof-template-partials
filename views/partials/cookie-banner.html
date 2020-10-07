@@ -1,23 +1,23 @@
 <div id="cookie-banner" class="grid-row">
   <div id="cookie-banner-info" class="column-two-thirds">
-    <p class="heading-medium js-enabled">Can we store analytics cookies on your device?</p>
+    <h1 class="heading-medium js-enabled">Can we store analytics cookies on your device?</h1>
     <p class="js-enabled">Analytics cookies help us understand how our website is being used.</p>
     <!--Non-javascript fallback content-->
-    <p class="heading-medium js-disabled">Tell us whether you accept cookies</p>
+    <h1 class="heading-medium js-disabled">Tell us whether you accept cookies</h1>
     <p class="js-disabled">
       We use cookies to collect information about how you use GOV.UK.
       We use this information to make the website work as well as possible and improve government services.
     </p>
   </div>
   <div id="cookie-banner-actions" class="column-two-thirds">
-    <button id="accept-cookies-button" class="button js-enabled" type="button">Yes</button>
-    <button id="reject-cookies-button" class="button js-enabled" type="button">No</button>
+    <button id="accept-cookies-button" class="button js-enabled" type="button" aria-label="Yes, accept cookies that measure website usage">Yes</button>
+    <button id="reject-cookies-button" class="button js-enabled" type="button" aria-label="No, decline cookies that measure website usage">No</button>
     <a href="/cookies" class="js-enabled">How we use cookies</a>
     <!--Non-javascript fallback content-->
     <a href="/cookies" role="button" class="button js-disabled">Set cookie preferences</a>
   </div>
-  <div id="cookie-banner-submitted">
+  <div id="cookie-banner-submitted" tabindex="-1">
     <p>You've accepted analytics cookies, you can <a href="/cookies">change your cookie settings</a> at any time.</p>
-    <button id="hide-cookie-banner" class="button" type="button">Hide</button>
+    <button id="hide-cookie-banner" class="button" type="button" aria-label="Hide cookie banner">Hide</button>
   </div>
 </div>
