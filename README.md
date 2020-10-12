@@ -2,7 +2,7 @@
 
 Home Office Forms template partials is a collection of mustache partials commonly used in HOF applications.  It also contains a collection of i18n translations used within the template partials. All contents are designed to be extended in your individual applications.
 
-## installation
+## Installation
 
 ```bash
 $ npm install --save hof-template-partials
