@@ -16,7 +16,7 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "eslint": "^3.16.1",
+    "eslint": "^4.18.2",
     "eslint-config-homeoffice": "^2.1.2"
   }
 }
