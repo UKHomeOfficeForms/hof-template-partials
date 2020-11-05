@@ -15,7 +15,7 @@
 
         if (path.match(regex) && path.match(regex).length > 0) {
           var matchedSubstring = path.match(regex)[1];
-          var redactedPath = path.replace(matchedSubstring, '[feedback]');
+          var redactedPath = path.replace(matchedSubstring, '[reference]');
           ga('set', 'location', redactedPath);
         }
 
