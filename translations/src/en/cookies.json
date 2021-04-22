@@ -39,6 +39,11 @@
         "seen_cookie_message",
         "Lets us know you’ve already seen our cookie message",
         "1 month"
+      ],
+      [
+        "cookie_preferences",
+        "Lets us know that you’ve saved your cookie consent settings",
+        "1 month"
       ]
     ]
   },
